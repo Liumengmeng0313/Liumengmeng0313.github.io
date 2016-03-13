@@ -19,6 +19,7 @@ $('#fp-inner').fullpage({
 	   		$(".page1 audio")[0].play();
             for (var i, i = 0;i < 5;i++) {
                 $(".page2 .subtalk").find("audio")[i].pause();
+                $(".page2 .subtalk").find("audio")[i].load();
             }
     	}
 
@@ -84,7 +85,7 @@ $(".page2 ul").click(function(e) {
 			a[i].pause();
 		}
 	}	
-
+    
 	$(e.target).find("audio")[0].play();
 });
 

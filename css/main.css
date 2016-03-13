@@ -114,7 +114,7 @@ html {
 	border-radius: 20px;
 	visibility: hidden;
 	width: 80%;
-	height: 16%;
+	height: 12%;
 	box-shadow: 1px 1px 3px #291DD0;
 }
 
@@ -197,7 +197,7 @@ html {
 .page4 small {
 	position: absolute;
 	width: 100%;
-	top: 96%;
+	top: 98%;
 	text-align: center;
 }
 
@@ -206,14 +206,15 @@ html {
 	width: 80%;
 	height: 80%;
 	margin: 0 auto;
-	top: 60px;
+	top: 5%;
 }
 .page4 h2 {
 	color: #fff;
 	font-size: 32px;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 1em;
 }
+
 
 .down {
 	position: fixed;
