@@ -17,6 +17,9 @@ $('#fp-inner').fullpage({
     		$('.page1 h3').addClass('animated fadeInUp');
 
 	   		$(".page1 audio")[0].play();
+            for (var i, i = 0;i < 5;i++) {
+                $(".page2 .subtalk").find("audio")[i].pause();
+            }
     	}
 
     	if (e.prev == "0") {	
